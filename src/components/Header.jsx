@@ -9,7 +9,7 @@ function Header() {
                 <img src={logo} alt="" className='lg:w-[80px] w-[90px] ' />
             </a>
 
-            <button className='btn btn-sm'>Contact me</button>
+            <button className='btn btn-sm '>Contact me</button>
          </div>
         </div>
     </div>

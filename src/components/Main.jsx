@@ -14,7 +14,7 @@ function Main() {
       <div className="container mx-auto lg:-mt-28 mt-8">
         <div className="flex flex-col lg:items-center lg:flex-row gap-y-8 lg:gap-y-0 ">
           <div className="flex-1 text-center font-secondary lg:text-left">
-            <motion.h1
+            <motion.h1 
               variants={fadeIn("up", 0.3)}
               initial="hidden"
               whileInView={"show"}
