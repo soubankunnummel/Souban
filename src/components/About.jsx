@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import img2 from '../img/img2.png'
+import img4 from '../img/img4.jpg'
 
 function About() {
   const [ref, inView] = useInView({
@@ -24,7 +24,7 @@ function About() {
            bg-top
            "
           >
-           <img src="" alt="" />
+           <img src={img4} alt="" />
           </motion.div>
           <motion.div
             variants={fadeIn("right", 0.5)}
@@ -34,14 +34,14 @@ function About() {
           >
             <h2 className="h2 text-sky-500">About Me</h2>
             <h2 className="h3 mb-4 text-white">I am a Freelance Full-Stack devleloper with 1 year expreance</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis a alias facere dolor ipsam voluptatum id asperiores quaerat accusamus, quod possimus, soluta tempora fugiat, natus excepturi officiis explicabo fuga rerum!
-            Iusto omnis ad earum rem tempore quo dolores modi ullam quos mollitia quibusdam architecto minus saepe et fugiat corrupti nesciunt accusamus sint nemo quam, repellendus incidunt consectetur ipsam totam. Ipsa.</p>
+            <p>As a seasoned Freelance Full-Stack Developer with one year of diverse experience, I specialize in the MEAN stack.
+               Currently engaged in a live project at Kodlar Innovations, I employ Agile methodology for efficient development. With two successful full-stack projects under my belt, I bring a wealth of expertise in creating dynamic and innovative web solutions.</p>
 
             <div className="flex lg:justify-start justify-center lg:text-left text-center items-center gap-x-6 lg:gap-x-10 font-primary">
               <div className="text-[40px] tracking-[2px] text-sky-500 mb-2
               font-semibold
               ">
-                {inView ? <CountUp start={0} end={6} duration={4} />: null}
+                {inView ? <CountUp start={0} end={1} duration={4} />: null}
               </div>
 
               <div className=" text-sm tracking-[2px] text-white">
@@ -51,30 +51,32 @@ function About() {
               <div className="text-[40px] tracking-[2px] text-sky-500 mb-2
               font-semibold
               ">
-                {inView ? <CountUp start={0} end={6} duration={4} />: null}
+                {inView ? <CountUp start={0} end={2} duration={4} />: null}
               </div>
 
               <div className=" text-sm tracking-[2px] text-white">
                 Project <br /> conpleted
 
               </div>
-              <div className="text-[40px] tracking-[2px] text-sky-500 mb-2
+              {/* <div className="text-[40px] tracking-[2px] text-sky-500 mb-2
               font-semibold
               ">
-                {inView ? <CountUp start={0} end={6} duration={4} />: null}
+                {inView ? <CountUp start={0} end={1} duration={4} />: null}
               </div>
 
               <div className=" text-sm tracking-[2px] text-white">
                 Satisfied <br /> Clinets
 
-              </div>
+              </div> */}
              
 
              
 
             </div>
             <div className="flex lg:justify-start justify-center my-4  gap-x-8  items-center">
-            <button className="btn btn-lg">Contact me</button>
+            <button className="btn btn-lg">
+              <a href="mailto:your.souban.san@gmail.com">Contact me</a>
+            </button>
             <a href="">My Portfolio</a>
             </div>
              </motion.div>

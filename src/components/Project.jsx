@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import img5 from "../img/img5.jpg";
-import img6 from "../img/img6.jpg";
+import img5 from "../img/img5.png";
+import img6 from "../img/img6.png";
 import img8 from "../img/img8.jpg";
 
 import React from "react";
@@ -23,11 +23,11 @@ function Project() {
                 My last <br /> works
               </h2>
               <p className="max-w-sm mb-16 ">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
-                aperiam cumque velit distinctio consectetur sint, sapiente
-                quasi. Necessitatibus, laudantium error.
+              Engineered a vibrant Full Stack social media platform and a powerful Redwood.js e-commerce application, showcasing my versatility and expertise in web development.
               </p>
-              <button className="btn btn-sm">See My Projects</button>
+              <button className="btn btn-sm ">
+                <a href="https://github.com/soubankunnummel?tab=repositories">See My Projects</a>
+              </button>
             </div>
 
             <div className="group relative overflow-hidden  border-2 border-white/50 rounded-xl">
@@ -49,7 +49,7 @@ function Project() {
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50 ">
                 <span className="text-white lg:text-4xl text-2xl">
-                  Project Title
+                  Redwood
                 </span>
               </div>
             </div>
@@ -82,7 +82,7 @@ function Project() {
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50 ">
                   <span className="text-white lg:text-4xl text-2xl">
-                    Project Title
+                    TalkFlow
                   </span>
                 </div>
               </div>

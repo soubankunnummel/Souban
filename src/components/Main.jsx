@@ -2,8 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { fadeIn } from "../variants";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import img1 from '../img/img0.jpeg'
+import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import img1 from "../img/img0.jpeg";
 
 function Main() {
   return (
@@ -14,7 +14,7 @@ function Main() {
       <div className="container mx-auto lg:-mt-28 mt-8">
         <div className="flex flex-col lg:items-center lg:flex-row gap-y-8 lg:gap-y-0 ">
           <div className="flex-1 text-center font-secondary lg:text-left">
-            <motion.h1 
+            <motion.h1
               variants={fadeIn("up", 0.3)}
               initial="hidden"
               whileInView={"show"}
@@ -54,9 +54,11 @@ function Main() {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0 font-thin"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
-              fugit similique est voluptatum, unde fugiat necessitatibus
-              asperiores? Excepturi, totam enim.
+              I am a self-taught developer who has a passion for solving digital
+              problems with cutting-edge technologies. I have a knack for web
+              development and a thirst for learning more about scalable and
+              distributed systems. I also value writing code that is clear and
+              easy to maintain.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.5)}
@@ -75,14 +77,17 @@ function Main() {
               viewport={{ once: false, amount: 0.7 }}
               className="flex items-center gap-x-4 max-w-max lg:mx-0 mx-auto"
             >
-              <a href="">
+              <a href="https://www.instagram.com/souban_kunnummel/">
                 <FaInstagram className="text-2xl" />
               </a>
-              <a href="">
+              <a href="https://github.com/soubankunnummel">
                 <FaGithub className="text-2xl" />
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/muhammedsouban/">
                 <FaLinkedin className="text-2xl" />
+              </a>
+              <a href="https://wa.me/9072925095?text=Hello%20from%20your%20website">
+                <FaWhatsapp className="text-2xl" />
               </a>
             </motion.div>
           </div>
@@ -94,7 +99,6 @@ function Main() {
             className="lg:flex hidden flex-1 max-w-[320px] lg:mx-w-[480px]  "
           >
             <img src={img1} alt="img" />
-
           </motion.div>
         </div>
       </div>
