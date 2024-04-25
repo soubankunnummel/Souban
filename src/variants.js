@@ -7,7 +7,7 @@ export const fadeIn =  (direction, delay) => {
 
         },
         show: { 
-            y: 0, 
+            y: 0,  
             x: 0,
             opacity: 1,
             transition: {

@@ -34,8 +34,10 @@ function Main() {
               <span className="mr-4">I'am</span>
               <TypeAnimation
                 sequence={[
-                  "Full stack Developer",
+                  "Freelance Developer",
                   2000,
+                  "Full stack Developer",
+                  2000, 
                   "MERN stck Developer",
                   2000,
                   "FrondEnd Developer",
@@ -68,7 +70,7 @@ function Main() {
               className="flex max-w-max mx-auto lg:mx-0 items-center gap-x-8 mb-12"
             >
               <button className="btn btn-lg">Contact me</button>
-              <a href="">My Portfolio</a>
+              <a  href="">My Portfolio</a>
             </motion.div>
             <motion.div
               variants={fadeIn("up", 0.5)}
@@ -77,16 +79,16 @@ function Main() {
               viewport={{ once: false, amount: 0.7 }}
               className="flex items-center gap-x-4 max-w-max lg:mx-0 mx-auto"
             >
-              <a href="https://www.instagram.com/souban_kunnummel/">
+              <a target="_blank" href="https://www.instagram.com/souban_kunnummel/">
                 <FaInstagram className="text-2xl" />
               </a>
-              <a href="https://github.com/soubankunnummel">
+              <a target="_blank" href="https://github.com/soubankunnummel">
                 <FaGithub className="text-2xl" />
               </a>
-              <a href="https://www.linkedin.com/in/muhammedsouban/">
+              <a target="_blank" href="https://www.linkedin.com/in/muhammedsouban/">
                 <FaLinkedin className="text-2xl" />
               </a>
-              <a href="https://wa.me/9072925095?text=Hello%20from%20your%20website">
+              <a target="_blank" href="https://wa.me/9072925095?text=Hello%20from%20your%20website">
                 <FaWhatsapp className="text-2xl" />
               </a>
             </motion.div>
